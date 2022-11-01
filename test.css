@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  width:100;
+  
+}
+.main_box{
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  background-color:white;
+  box-shadow:3px 3px 3px #959595;
+  left:0px;
+  top:0px
+}
+.main_box .sidebar_menu{
+  position: fixed;
+  height: 100vh;
+  width: 280px;
+  left: -280px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  transition: all 0.3s linear;
+  background:#dedede;
+}
+.sidebar_menu .logo{
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.5);
+}
+.sidebar_menu .logo a{
+  color: green;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 50px;
+  line-height: 60px;
+  text-decoration: none;
+}
+.sidebar_menu .menu{
+  position: absolute;
+  top: 80px;
+  width:100%;
+}
+.sidebar_menu .menu li{
+  margin-top: 6px;
+  padding: 14px 20px;
+}
+.sidebar_menu .menu i{
+  color: green;
+  font-size: 20px;
+  padding-right: 8px;
+}
+.sidebar_menu .menu a{
+  color:green;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidebar_menu .menu li:hover{
+  border-left: 1px solid green;
+  box-shadow: 0 0 4px green;
+}
+.sidebar_menu .social_media{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.sidebar_menu .social_media i{
+  text-decoration: none;
+  color: green;
+  font-size: 20px;
+  
+}
+.sidebar_menu .social_media i:hover{
+  opacity: 1;
+  transition: all 0.2s linear;
+  transform: scale(1.01);
+}
+#check{
+  display: none;
+}
+.main_box .btn_one i{
+  color:green;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 16px;
+  line-height: 60px;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s linear;  
+}
+ .sidebar_menu .btn_two i{
+  font-size: 25px;
+  line-height: 60px;
+  position: absolute;
+  left: 240px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s linear;
+  color:green:
+}
+.btn_one i:hover{
+  font-size: 29px;
+}
+.btn_two i:hover{
+  font-size: 24px;
+}
+#check:checked ~ .sidebar_menu{
+  left: 0;
+}
+#check:checked ~ .btn_one i{
+  opacity: 0;
+}
+#check:checked ~ .sidebar_menu .btn_two i{
+  opacity: 1;
+}
+#ge{
+  margin-top:20px;
+}
+#logo{
+  width:42%;
+}
+#musa{
+  margin-left:70%;
+}
+#men{
+  text-align:center;
+  font-weight:700;
+  font-size:120%;
+  color:green;
+}
+#down{
+  font-weight:350;
+  font-size:75%;
+  margin-left:4%;
+  color:green;
+  
+}
+#pad{
+  margin-bottom:2%;
+}
+#frame{
+  width:100%;
+  height:100%;
+  left:0;
+  top:10%;
+  position:fixed;
+  border:none;
+  display:hide;
+}
+#house{
+  width:8%;
+}
+#mind{
+  width:80%;
+}
+#sok{
+  color:green;
+}
+#des{
+  background-color:green;
+  color: white;
+  width:40%;
+  height:40px;
+  border:none;
+  border-radius:15%;
+  margin-top:20%;
+}
+

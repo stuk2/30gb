@@ -1,0 +1,248 @@
+body{
+  font-family:Open, Sans;
+}
+.container{
+  width:100%;
+  position:absolute;
+  transform:translate(-50% -50% );
+  height:350%;
+  overflow:hidden;
+  top:0;
+  left:0;
+  
+}
+.wrapper{
+  height:22%;
+  width:100%;
+  display:flex;
+  animation:slide 35s infinite;
+}
+#slide{
+  width:100%;
+}
+#nxt{
+  color:green;
+  text-align:center;
+  font-size:100%;
+  font-weight:600;
+  margin-top:5px;
+}
+#mgn{
+  top:0px;
+}
+#shade{
+  width:90%;
+  background-color:white;
+  border-radius:7%;
+  height:340px;
+  box-shadow:15px 15px 15px 15px  #a3a3a3;
+  margin-top:7%;
+}
+#hmm{
+  color:green;
+  font-weight:600%;
+}
+#more{
+  width:55%;
+  height:15%;
+  border-radius:25%;
+  background-color:green;
+  color:white;
+  border:none;
+  
+}
+#oops{
+  color:green;
+  font-weight:200%;
+  font-size:110%;
+  top:50%;
+  text-align:center;
+  margin-right:200%;
+}
+#mind{
+  width:70%;
+  
+}
+#cont{
+  width:40%;
+  height:6%;
+  background-color:green;
+  border:none;
+  border-radius:10%;
+  color:white;
+  font-size:100%;
+  margin-top:20%;
+  margin-left:0;
+}
+#mulu{
+  margin-right:30%;
+  position: absolute;
+}
+#div1{
+  width:45%;
+  height:10%;
+  float:left;
+  background-color:white;
+  margin-left:3%;
+  margin-top:0%;
+  border-radius:10%;
+  box-shadow:5px 5px 5px 5px #a0a0a0ff;
+}
+#div2{
+  width:45%;
+  height:10%;
+  float:right;
+  background-color: white;
+  margin-right:3%;
+  margin-top:0%;
+  border-radius:10%;
+  box-shadow:5px 5px 5px 5px #a0a0a0ff;
+}
+#div3{
+  width:45%;
+  height:10%;
+  float:left;
+  background-color:white;
+  margin-left:3%;
+  margin-top:4%;
+  border-radius:10%;
+  box-shadow:5px 5px 5px 5px #a0a0a0ff;
+}
+#div4{
+  width:45%;
+  height:10%;
+  float:right;
+  background-color: white;
+  margin-right:3%;
+  margin-top:4%;
+  border-radius:10%;
+  box-shadow:5px 5px 5px 5px #a0a0a0ff;
+}
+#high{
+  color:green;
+  font-size:170%;
+  font-weight:600;
+  
+}
+#highim{
+  width:100%;
+  height:70%;
+  border-top-left-radius:10%;
+  border-top-right-radius:10%;
+}
+#highip{
+  font-size:80%;
+  width:80%;
+  text-align:center;
+  margin-left:13%;
+  font-weight:600;
+  margin-top:0;
+  color:green;
+}
+#foot{
+  width:100%;
+  height:22%;
+  background-color:white;
+  margin-top:100%;
+  box-shadow:20px 20px 20px 20px gray;
+}
+#products{
+  width:65%;
+  margin-top:10%;
+  margin-right:5%;
+}
+#pros{
+  font-size:130%;
+  color:green;
+  font-weight:600;
+}
+#quick{
+  font-size:100%;
+  font-weight:700;
+  color:green;
+  margin-top:0%;
+  margin-bottom:0;
+}
+#links{
+  color:green;
+  font-weight:400;
+  font-size:90%;
+  margin-top:0;
+}
+#deco{
+  text-decoration:none;
+  color:green;
+}
+#icon{
+  width:12%;
+  bordee
+  :3px 3px 3px 3px gray;
+}
+#own{
+  width:10%;
+  height:30%;
+}
+#uganda{
+  width:20%;
+}
+#unbs{
+  width:12%;
+}
+#downe{
+  width:100%;
+  height:90px;
+  background-color:green;
+  margin-top:26%;
+  color:white;
+  border-top-left-radius:4%;
+  border-top-right-radius:4%;
+}
+@keyframes slide{
+  0%{
+    transform:translatex(0);
+  }
+  10%{
+    transform:translatex(0);
+  }
+  15%{
+    transform:translatex(-100%);
+  }
+  25%{
+    transform:translatex(-100%);
+  }
+  30%{
+    transform:translatex(-200%);
+  }
+  40%{
+    transform:translatex(-200%);
+  }
+  45%{
+    transform:translatex(-300%);
+  }
+  55%{
+    transform:translatex(-300%);
+  }
+  60%{
+    transform:translatex(-400%);
+  }
+  70%{
+    transform:translatex(-400%);
+  }
+  75%{
+    transform:translatex(-500%);
+  }
+  85%{
+    transform:translatex(-500%);
+  }
+  90%{
+    transform:translatex(-600%);
+  }
+  100%{
+    transform:translatex(-600%);
+  }
+  105%{
+    transform:translatex(0)
+  }
+  
+  
+}
