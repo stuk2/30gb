@@ -10,12 +10,14 @@
 }
 .scroll{
   font-weight:500;
+  font-family:timesnewroman;
 }
 #watch{
   text-align:center;
   margin-top:0;
   font-size:17px;
   font-weight:400;
+  font-family:timesnewroman;
 }
 #rule{
   margin-top:0;
